@@ -10,6 +10,7 @@ public class TransparentScreenCapture : MonoBehaviour{
 
     RecorderController m_RecorderController;
 
+    [SerializeField] private string _imageName = "image";
     [SerializeField] private Vector2 _resolution = new Vector2(1920, 1080);
 
     private bool _isBusy = false;
@@ -30,7 +31,7 @@ public class TransparentScreenCapture : MonoBehaviour{
         imageRecorder.OutputFormat = ImageRecorderSettings.ImageRecorderOutputFormat.PNG;
         imageRecorder.CaptureAlpha = true;
         
-        imageRecorder.OutputFile = string.Concat(mediaOutputFolder, "\\capture_" + DefaultWildcard.Take);
+        imageRecorder.OutputFile = string.Concat(mediaOutputFolder, "\\" + _imageName + "_" + DefaultWildcard.Take);
 
         imageRecorder.imageInputSettings = new GameViewInputSettings
         {

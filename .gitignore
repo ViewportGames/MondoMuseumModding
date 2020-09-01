@@ -1,0 +1,6 @@
+*.csproj
+/MondoMuseumModding.sln
+/.vscode
+/obj
+/Logs
+/Library

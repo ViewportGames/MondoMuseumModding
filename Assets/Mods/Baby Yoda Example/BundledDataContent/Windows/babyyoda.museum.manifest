@@ -1,0 +1,38 @@
+ManifestFileVersion: 0
+CRC: 3117522025
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 4aa9e1532eb53ae0ee0122c808157240
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 38bc7000b109e99e684a32c106816ede
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 192dc0d91bfaa4a6382df6b67c746194, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Mods/Baby Yoda Example/Assets/BabyYoda_ScriptableObject.asset
+Dependencies: []

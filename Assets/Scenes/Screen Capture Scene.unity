@@ -290,6 +290,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d058283f63eb415c9f0b5b830d209a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _imageName: image
   _resolution: {x: 1920, y: 1080}
 --- !u!4 &871960234
 Transform:

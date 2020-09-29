@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 192dc0d91bfaa4a6382df6b67c746194, type: 3}
+  m_Name: VanGogh_ScriptableObject
+  m_EditorClassIdentifier: 
+  _itemType: 3
+  _itemSubType: 8
+  _itemUISortTags: 1048576
+  _itemName: Self-Portrait with a Straw Hat
+  _itemDescription: "Van Gogh produced more than twenty self-portraits during his
+    Parisian sojourn (1886\u201388). Short of funds but determined nevertheless to
+    hone his skills as a figure painter, he became his own best sitter: \"I purposely
+    bought a good enough mirror to work from myself, for want of a model.\""
+  _iconSprite: {fileID: 21300000, guid: 6a99a9a96c0e64494a6feffd3181b20f, type: 3}
+  MainPrefab: {fileID: 2175438418133508569, guid: 5a6be5520a6384ca0ae32719741423f5,
+    type: 3}
+  SecondaryPrefab: {fileID: 0}
+  PlacementRestriction: 0
+  PlacementSize: 0
+  _viewingArray: 000000000000010101
+  VisitorInteractsWithItem: 0
+  VisitorStoppingDistance: 0.25
+  MaxVisitorSearchDistance: 0
+  MaxVisitorsAllowedPerSpot: 3
+  CollectionId: Mods/Van Gogh
+  Rarity: 1
+  WallFrameItemDimensions: {x: 0.8046875, y: 1}
+  WallFramePadding: 0.1
+  MaterialVariants: []
+  Material: {fileID: 0}
+  WallConstraint: 0
+  WindowWallTypeId: 0
+  DoorWallTypeId: 0
+  HasDoorFrame: 0

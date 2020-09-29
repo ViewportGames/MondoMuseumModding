@@ -3,6 +3,7 @@ using UnityEditor;
 
 [CustomEditor(typeof(TransparentScreenCapture), true)]
 public class TransparentScreenCaptureEditor : Editor{
+    SerializedProperty _imageName;
     SerializedProperty _resolution;
 
     TransparentScreenCapture _script;
@@ -10,6 +11,7 @@ public class TransparentScreenCaptureEditor : Editor{
     private void OnEnable(){
         _script = target as TransparentScreenCapture;
 
+        _imageName = serializedObject.FindProperty("_imageName");
         _resolution = serializedObject.FindProperty("_resolution");
     }
 
@@ -18,6 +20,7 @@ public class TransparentScreenCaptureEditor : Editor{
 
         EditorGUILayout.HelpBox("Save a screenshot of the game view as a .png with transparent background.\n\nImages are in StreamingAssets/ScreenCaptures folder.", MessageType.None);
 
+        EditorGUILayout.PropertyField(_imageName);
         if(Application.isPlaying){
             EditorGUI.BeginDisabledGroup(true);
         }

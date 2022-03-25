@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 3690664732
+CRC: 3670951874
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: a4049e773c497f96dad2fcee4c8e0efa
+    Hash: d3f09aeac8ff20b743139641ec5a411b
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 38bc7000b109e99e684a32c106816ede
+    Hash: cc4de2006f0b766be43448cc4d142787
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -34,5 +34,10 @@ ClassTypes:
 - Class: 213
   Script: {instanceID: 0}
 Assets:
+- Assets/Mods/Baby Yoda Example/Assets/Materials/Textures/BabyYoda_Texture.png
+- Assets/Mods/Baby Yoda Example/Assets/Meshes/BabyYoda_Mesh.fbx
+- Assets/Mods/Baby Yoda Example/Assets/Materials/BabyYoda_Material.mat
+- Assets/Mods/Baby Yoda Example/Assets/BabyYoda_Prefab.prefab
+- Assets/Mods/Baby Yoda Example/Assets/BabyYoda_IconSprite.png
 - Assets/Mods/Baby Yoda Example/Assets/BabyYoda_ScriptableObject.asset
 Dependencies: []
